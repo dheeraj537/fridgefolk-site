@@ -55,8 +55,8 @@ img{display:block;max-width:100%}
   display:grid;place-items:center}
 .brand .mark svg{width:19px;height:19px}
 .nav-links{display:flex;align-items:center;gap:2rem}
-.nav-links a{font-weight:500;color:var(--muted);font-size:.95rem}
-.nav-links a:hover{color:var(--ink)}
+.nav-links a:not(.btn){font-weight:500;color:var(--muted);font-size:.95rem}
+.nav-links a:not(.btn):hover{color:var(--ink)}
 .btn{font-family:var(--sans);font-weight:600;font-size:.96rem;border:none;cursor:pointer;
   border-radius:999px;padding:.72rem 1.3rem;transition:transform .12s ease, box-shadow .2s ease;display:inline-flex;align-items:center;gap:.5rem}
 .btn:active{transform:translateY(1px)}
