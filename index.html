@@ -183,6 +183,10 @@ section{padding:72px 0}
 .stores{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:2rem}
 .store{display:inline-flex;align-items:center;gap:.7rem;background:var(--bg);color:var(--ink);
   border-radius:14px;padding:.85rem 1.4rem;font-weight:600}
+a.store{text-decoration:none;transition:transform .15s ease}
+a.store:hover{transform:translateY(-2px)}
+a.store:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero-note a{color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .store small{display:block;font-size:.7rem;font-weight:500;color:var(--muted);line-height:1}
 .store b{font-size:1.02rem;font-family:var(--display)}
 .soon-tag{font-size:.72rem;background:var(--accent);color:var(--accent-ink);padding:.15rem .5rem;border-radius:999px;font-weight:700;margin-left:.3rem}
@@ -232,7 +236,7 @@ footer{padding:56px 0 40px;border-top:1px solid var(--line)}
       <a class="btn btn-primary" href="#get">Get the app</a>
       <a class="btn btn-ghost" href="#how">See how it works</a>
     </div>
-    <p class="hero-note">Free to use. Coming to the App Store and Google Play.</p>
+    <p class="hero-note">Free to use. <a href="https://apps.apple.com/app/id6814096615" target="_blank" rel="noopener">On the App Store now</a>. Google Play coming soon.</p>
   </div>
   <div class="hero-visual reveal">
     <div class="blob"></div>
@@ -359,7 +363,7 @@ footer{padding:56px 0 40px;border-top:1px solid var(--line)}
     <h2>Get everyone on the same page.</h2>
     <p>Fridgefolk is free. Set up your pantry, invite the people you share a fridge with, and let the fridge sort itself out.</p>
     <div class="stores">
-      <span class="store"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16.5 12.9c0-2 1.6-3 1.7-3.1-1-1.4-2.4-1.6-2.9-1.6-1.3-.1-2.5.7-3.1.7-.6 0-1.6-.7-2.7-.7-1.4 0-2.7.8-3.4 2-1.4 2.5-.4 6.3 1 8.3.7 1 1.5 2.1 2.5 2 1-.1 1.4-.6 2.6-.6s1.5.6 2.6.6 1.8-1 2.5-2c.5-.7.9-1.4 1.1-2.2-2.4-.9-2.5-3.6-1.5-3.9ZM14.6 6.7c.6-.7 1-1.6.9-2.6-.8 0-1.9.6-2.5 1.2-.5.6-1 1.5-.9 2.5.9.1 1.8-.4 2.5-1.1Z"/></svg><span><small>Coming soon to the</small><b>App Store</b></span><span class="soon-tag">SOON</span></span>
+      <a class="store" href="https://apps.apple.com/app/id6814096615" target="_blank" rel="noopener" aria-label="Download Fridgefolk on the App Store"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16.5 12.9c0-2 1.6-3 1.7-3.1-1-1.4-2.4-1.6-2.9-1.6-1.3-.1-2.5.7-3.1.7-.6 0-1.6-.7-2.7-.7-1.4 0-2.7.8-3.4 2-1.4 2.5-.4 6.3 1 8.3.7 1 1.5 2.1 2.5 2 1-.1 1.4-.6 2.6-.6s1.5.6 2.6.6 1.8-1 2.5-2c.5-.7.9-1.4 1.1-2.2-2.4-.9-2.5-3.6-1.5-3.9ZM14.6 6.7c.6-.7 1-1.6.9-2.6-.8 0-1.9.6-2.5 1.2-.5.6-1 1.5-.9 2.5.9.1 1.8-.4 2.5-1.1Z"/></svg><span><small>Download on the</small><b>App Store</b></span></a>
       <span class="store"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4.3 2.6c-.2.2-.3.5-.3.9v17c0 .4.1.7.3.9l9.3-9.4L4.3 2.6ZM16.8 8.3 6.1 2.3l8.1 8.1 2.6-2.1ZM19.9 11.1l-2.2-1.3-2.8 2.2 2.8 2.2 2.3-1.3c.6-.4.6-1.5-.1-1.8ZM6.1 21.7l10.7-6-2.6-2.1-8.1 8.1Z"/></svg><span><small>Coming soon to</small><b>Google Play</b></span><span class="soon-tag">SOON</span></span>
     </div>
   </div>
